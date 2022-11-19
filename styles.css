@@ -130,7 +130,7 @@ img {
   transition: background-color .3s ease-in-out;
 }
 
-.card__cta:hover {
+.card__cta:where(:hover, :focus-visible) {
   background-color: hsl(158, 36%, 20%);
 }
 
